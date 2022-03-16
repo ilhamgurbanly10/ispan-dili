@@ -1,0 +1,61 @@
+/* gallery */
+#my-gallery {
+	margin-bottom: 5vw;
+}
+#my-gallery .flash-gallery-title {
+	color: #222222;
+}
+#my-gallery .flash-gallery-title span {
+	color: #1b2af2;
+}
+#my-gallery .flash-gallery-text {
+	color: grey;
+	transition: font-size 0.3s ease, line-height 0.3s ease;
+}
+
+#my-gallery .flash-gallery-text.ffsc-font-size-1 {
+	font-size: 0.8rem;
+	line-height: 1.5rem;
+}
+#my-gallery .flash-gallery-text.ffsc-font-size-2 {
+	font-size: 1rem;
+	line-height: 2rem;
+}
+#my-gallery .flash-gallery-text.ffsc-font-size-3 {
+	font-size: 1.5rem;
+	line-height: 3rem;
+}
+#my-gallery .flash-gallery-text.ffsc-font-size-4 {
+	font-size: 2rem;
+	line-height: 4rem;
+}
+#my-gallery .flash-gallery-text.ffsc-font-size-5 {
+	font-size: 2.5rem;
+	line-height: 5rem;
+}
+
+@media only screen and (max-width: 800px) {
+
+	#my-gallery .flash-gallery-text.ffsc-font-size-1 {
+		font-size: 0.6rem;
+		line-height: 1.2rem;
+	}
+	#my-gallery .flash-gallery-text.ffsc-font-size-2 {
+		font-size: 0.8rem;
+		line-height: 1.4rem;
+	}
+	#my-gallery .flash-gallery-text.ffsc-font-size-3 {
+		font-size: 1.2rem;
+		line-height: 2rem;
+	}
+	#my-gallery .flash-gallery-text.ffsc-font-size-4 {
+		font-size: 1.7rem;
+		line-height: 3rem;
+	}
+	#my-gallery .flash-gallery-text.ffsc-font-size-5 {
+		font-size: 2rem;
+		line-height: 4rem;
+	}
+
+}	
+/* the-end-of-gallery */

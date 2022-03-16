@@ -1,0 +1,97 @@
+/* flash-exercise */
+.flash-exercise-open-button,
+.flash-exercise-close-button {
+	width: 20%;
+}
+.flash-exercise-close-button {
+	margin-left: 79%;
+	margin-bottom: 2vw;
+}	
+.flash-exercise-container {
+	width: 70%;
+	margin-top: 3vw;
+	opacity: 0;
+	max-height: 0;
+	overflow: hidden;
+	transition-property: opacity, max-height;
+	transition-duration: 1s;
+	transition-timing-function: ease;
+}
+.flash-exercise-container.flash-exercise-container-show {
+	opacity: 1;
+	max-height: 1000px;
+}
+.flash-exercise-title {
+	color: grey;
+	font-weight: normal;
+}
+.flash-exercise-name {
+	color: #222222;
+}
+.flash-exercise-name span {
+	color: #1b2af2;
+}
+.flash-exercise-name-underline {
+	background-color: #1b2af2;
+	height: 2px;
+	width: 5%;
+}
+.flash-exercise-form {
+	margin-bottom: 2vw;
+}
+.flash-exercise-sentence {
+	color: grey;
+	line-height: 30px;
+}
+.flash-exercise-sentence-number {
+	color: #1b2af2;
+	margin-right: 0.5vw;
+}
+.flash-exercise-sentence-exception {
+	color: #1b2af2;
+}
+.flash-exercise-input {
+	color: #1b2af2;
+	border: 1px solid #1b2af2;
+	padding: 0.5vw;
+	outline: 0 !important;
+}
+.flash-exercise-buttons-container {
+	width: 100%;
+	margin-top: 4vw;
+	padding: 0;
+	font-size: 0;
+}
+.flash-exercise-button {
+	width: 10% !important;
+	border-radius: 1vw !important;
+	margin-bottom: 1vw;
+	padding-left: 0 !important;
+	padding-right: 0 !important; 
+}
+.flash-exercise-submit {
+	margin-right: 1%;
+	margin-left: 78%;
+}
+@media only screen and (max-width: 1024px) {
+
+	.flash-exercise-container {
+		width: 100%;
+	}
+
+}
+@media only screen and (max-width: 599px) {
+
+	.flash-exercise-open-button {
+		width: 30%;
+	}
+	.flash-exercise-button {
+		width: 20% !important; 
+	}
+	.flash-exercise-submit {
+		margin-right: 2%;
+		margin-left: 57%;
+	}
+
+}
+/* the-end-of-flash-exercise */	
