@@ -1658,10 +1658,16 @@ header.flash-fixed-header {
 	transition-property: background-color, color, box-shadow;
 	transition-duration: 0.3s;
 	transition-timing-function: linear;
+	display: -ms-flexbox;
+	-ms-flex-pack: center;
+	-ms-flex-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .choose-languages-button i {
-	font-size: 2vw !important;
+	font-size: 2rem !important;
 	animation-name: rotate;
   	animation-duration: 5s;
   	animation-timing-function: linear;
