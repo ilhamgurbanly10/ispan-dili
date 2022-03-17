@@ -1649,7 +1649,7 @@ header.flash-fixed-header {
 	left: 0 !important;
 }
 .choose-languages-button {
-	padding: 1vw !important;
+	padding: 1rem !important;
 	box-sizing: padding-box !important;
 	height: 100%;
 	width: auto !important;
