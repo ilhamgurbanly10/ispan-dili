@@ -808,14 +808,14 @@
 	transition-timing-function: ease;
 	border: 0;
 	outline: 0 !important;
-	padding: 1rem;
+	padding: 1.5rem;
 	cursor: pointer;
 	visibility: hidden;
 	opacity: 0;
 	border-radius: 0.5vw;
 }
 .flash-fixed-back-to-top-button.flash-fixed-back-to-top-button-is-scrolled {
-	bottom: 3rem;
+	bottom: 5rem;
 	visibility: visible;
 	opacity: 1;
 }	
@@ -855,6 +855,15 @@
 .flash-fixed-back-to-top-button:active {
 	background-color: #0715cb;
 }
+@media only screen and (max-width: 1024px) {
+
+	.flash-fixed-back-to-top-button {
+		padding: 1rem;
+	}	
+	.flash-fixed-back-to-top-button.flash-fixed-back-to-top-button-is-scrolled {
+		bottom: 3rem;
+	}
+}	
 /* the-end-of-flash-fixed-back-to-top-button */
 
 
