@@ -1649,6 +1649,7 @@ header.flash-fixed-header {
 	left: 0 !important;
 }
 .choose-languages-button {
+	width: 300px !important;
 	padding: 3rem !important;
 	box-sizing: padding-box !important;
 	height: 100%;
