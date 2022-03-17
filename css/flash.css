@@ -245,8 +245,8 @@ body.flash-is-not-loaded * {
 }
 .flash-drop-down-button {
 	width: 100px !important;
-	padding-left: 0 !important;
-	padding-right: 0 !important;
+	padding-left: 0;
+	padding-right: 0;
 	vertical-align: top;
 }
 .flash-drop-down-element.right {
