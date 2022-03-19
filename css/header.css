@@ -1693,6 +1693,17 @@ header.flash-fixed-header {
 	background-color: transparent;
 }
 
+@media only screen and (max-width: 1024px) {
+
+	.choose-languages-button {
+		padding: 0.5rem !important;
+	}
+	.choose-languages-button i {
+		font-size: 1rem !important;
+	}	
+
+}
+
 /* buttons */
 .flash-page-green-button {
 	display: inline-block;
